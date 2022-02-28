@@ -1,0 +1,30 @@
+
+GET http://localhost:3030/usuarios
+
+
+
+###
+POST http://localhost:3030/usuarios
+Content-Type: application/json
+
+{
+    "nombre":"jhon",
+    "email":"jhon@gmail.com"
+}
+
+###
+DELETE http://localhost:3030/usuarios/7
+Content-Type: application/json
+
+
+
+###
+
+PUT http://localhost:3030/usuarios/1
+Content-Type: application/json
+
+{
+    "id":1,
+    "nombre":"andcv"
+    
+}
